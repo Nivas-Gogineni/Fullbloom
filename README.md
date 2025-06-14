@@ -6,7 +6,7 @@
 
 ## 📸 Screenshots
 
-> ⚠️ *Replace the image URLs below with actual screenshot paths or GitHub-hosted image links.*
+
 
 ### 🏠 Home Screen
 ![Home Screen](screenshots/home.png)
