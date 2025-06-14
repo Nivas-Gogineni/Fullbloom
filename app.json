@@ -1,0 +1,54 @@
+
+{
+  "expo": {
+    "name": "fullbloom-app",
+    "slug": "fullbloom-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "fullbloom",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iandhra.fullbloomapp",
+      
+      "config": {
+        "googleMapsApiKey": "AIzaSyDrTGWq0hQ1-miR6HvZfi3FjENigUnyxWI"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show nearby clinics."
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "package": "com.iandhra.fullbloomapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDrTGWq0hQ1-miR6HvZfi3FjENigUnyxWI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4bc38c0e-c413-4b59-9453-cbd0fe57820d"
+      }
+    },
+    "owner": "iandhra",
+    "plugins": ["expo-web-browser"]
+  }
+}
