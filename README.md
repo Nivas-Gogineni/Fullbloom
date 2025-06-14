@@ -70,7 +70,7 @@
 |--------------------|--------------------------------------------------|
 | App Framework      | React Native (Expo)                              |
 | Navigation         | `@react-navigation/native`, Stack + Tabs         |
-| Maps               | `react-native-maps`, Google Places API           |
+| Maps               | `react-native-maps`, Google Places API, FourSqure|
 | AI Chatbot         | OpenAI / Groq API + custom prompt design         |
 | Authentication     | Supabase Auth + OAuth integrations               |
 | State Management   | React `useState`, `useEffect`, and `AsyncStorage`|
@@ -110,3 +110,23 @@ Here’s what’s coming in **FullBloom v2.0+**:
 ```bash
 git clone https://github.com/your-username/fullbloom-app.git
 cd fullbloom-app
+```
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Create a .env file for the environment variables and API Keys
+```env
+GROQ_API_KEY=your_groq_or_openai_api_key_here
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your_supabase_anon_public_key
+FOURSQUARE_API_KEY = your_foursqure_api_key_here
+```
+
+### 4. Run the app locally
+```bash
+npx expo start
+```
